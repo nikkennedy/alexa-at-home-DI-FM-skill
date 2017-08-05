@@ -1,0 +1,17 @@
+{
+	"name": "digitally-imported-proxy-server",
+	"version": "1.0.0",
+	"description": "Sends data from Digitally Imported HTTP servers over your own HTTPS link (for Alexa Skills audio playback)",
+	"main": "server.js",
+	"author": "Nik Kennedy <github@hzdev.net>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.14.1",
+		"body-parser": "^1.16.1",
+		"request": "^2.81.0"
+	}
+}
