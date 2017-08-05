@@ -44,7 +44,7 @@ function Play(alexa)
     var functions = [];
 
     // if a channel is not already set set it to the default 
-    if(channelName == "") {
+    if(channelName == "" || channelName == undefined) {
         channelName = defaultChannelName;
     }
 
